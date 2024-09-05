@@ -192,13 +192,13 @@ else
 {
     Console.WriteLine("Lüften Geçerli Sayı Giriniz");
 }
-*/
+
 
 string[] gunler = { "Lütfen 1 ile 7 arasında sayı giriniz ,Pazar,Pazartesi,Salı,Çarşamba,Perşembe,Cuma,Cumartesi,Pazar" };
 Console.ReadLine();
 int gun = 7;
 
-if(gun <= 1 && gun <= 7)
+if(gun <= 1 && gun >= 7)
 {
     Console.WriteLine("Günler "[gun]);
 }
@@ -206,4 +206,126 @@ else
 {
     Console.WriteLine("Günler"[0]);
 }
+*/
+#endregion
+#region Operator
+// Eşittir
+// 5 == 3 false
+// 5 == 5 true
+
+// Eşit Değil
+// 5 != 3 false
+// 5 = 5
+
+// Büyüktür
+
+//küçüktür
+// 5 < 3 => flase
+// 3 < 5 => true
+
+
+// Büyük Eşit
+// 6 >= 2=> true
+// 6 >= 6 =
+
+// kücük eşit 
+// 6 <= 2 => false
+// 3<=6 => true
+
+// And (ve) Operatörü (&&)
+// tüm koşullar doğru olma durumu (true)
+// 5 == 5 && 2 >=1 && 3 != 7 => true
+// 5 == 5 && 2 >=1 && 3 = 7 => false
+
+// OR (veya) operatoru (||)
+// En az bir tanesi karşılanmalı
+// 5 == 5 || 2 < 1  3 == 7 > true (ilk kosul dogru oldugu icin true doner)
+// 5 == 6 || 2 < 1 || 3 == 7 > false 
+#endregion
+
+#region Ornek1
+// 0 küçük ve 100 den buyuk olmalı
+/*Console.WriteLine("Lütfen Yaşınızı Giriniz");
+Console.ReadLine();
+int kullancu  =int.Parse(Console.ReadLine());
+// f(g(h(x)))
+if(0 < kullancu || kullancu > 100)
+{
+    Console.WriteLine("Geçersiz:");
+}
+else
+{
+    Console.WriteLine("Geçerli Yaş: ");
+}
+if (kullancu > 0 && kullancu < 100)
+{
+    Console.WriteLine("Geçerli yaş");
+}
+else
+{
+    Console.WriteLine("Geçersiz yaş");
+}
+*/
+#endregion
+
+#region Ornek2
+
+/*Console.WriteLine("Vize Notunu Giriniz:");
+double vize = double.Parse(Console.ReadLine()); 
+
+Console.WriteLine("Final Notunu Giriniz:");
+double final = double.Parse(Console.ReadLine()); 
+
+double ortalama = (vize * 0.30) + (final * 0.70); 
+string not;
+
+if (ortalama >= 0 && ortalama < 30) 
+{
+    not = "FF";
+}
+else if (ortalama >= 30 && ortalama < 50) 
+{
+    not = "DD";
+}
+else if (ortalama >= 50 && ortalama < 70) 
+{
+    not = "CC";
+}
+else if (ortalama >= 70 && ortalama <= 100) 
+{
+    not = "AA";
+}
+else
+{
+    not = "Geçersiz not.";
+}
+
+Console.WriteLine($"Ortalama: {ortalama}, Harf Notu: {not}");
+*/
+
+Console.WriteLine("Vize Notunu Giriniz :");
+double vize = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Final Notunu Giriniz : ");
+double final = double.Parse(Console.ReadLine());
+
+double ortlama = vize * 3 + final * 7;
+
+if(ortlama <= 0 && ortlama > 30)
+{
+    Console.WriteLine("FF");
+}
+else if(ortlama >= 30 && ortlama < 50)
+{
+    Console.WriteLine("BB");
+}
+else if(ortlama >= 50 && ortlama < 70)
+{
+    Console.WriteLine("CC");
+}
+else if(ortlama >= 70 && ortlama <= 100)
+{
+    Console.WriteLine("AA");
+}
+Console.WriteLine(ortlama);
 #endregion
