@@ -33,7 +33,7 @@ Console.WriteLine($"Girilen sayı sonuc {sonuc} ' dur");
 */
 // Kullanıcıdan ıkı sayı alınız hangı sayı buyukse ekrana onu yazdırınız
 
- Console.WriteLine("Birinci Sayıyı Giriniz:");
+ //Console.WriteLine("Birinci Sayıyı Giriniz:");
 /*        int girilenSayı = int.Parse(Console.ReadLine());
 
         Console.WriteLine("İkinci Sayıyı Giriniz:");
