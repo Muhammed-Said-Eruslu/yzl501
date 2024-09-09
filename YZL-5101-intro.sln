@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipDönüşümleri", "TipD�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KararYapılarıLAB", "KararYapılarıLAB\KararYapılarıLAB.csproj", "{E0632E6C-DE37-4AAE-BFF7-2366BD64D459}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sınav", "sınav\sınav.csproj", "{8504D2A9-860B-4A82-8594-D4559732B097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-HataYönetimi", "09-HataYönetimi\09-HataYönetimi.csproj", "{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{E0632E6C-DE37-4AAE-BFF7-2366BD64D459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0632E6C-DE37-4AAE-BFF7-2366BD64D459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0632E6C-DE37-4AAE-BFF7-2366BD64D459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8504D2A9-860B-4A82-8594-D4559732B097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8504D2A9-860B-4A82-8594-D4559732B097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8504D2A9-860B-4A82-8594-D4559732B097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8504D2A9-860B-4A82-8594-D4559732B097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,6 +2,7 @@
 
 Console.BackgroundColor = ConsoleColor.DarkCyan;
 Console.ForegroundColor = ConsoleColor.Black;
+#region Sınav1
 /*string kullanıAdı;
 string sifre;
 bool girisBasarili = false; // false olarak başlar cunku daha giriş yapmadı
@@ -74,7 +75,7 @@ catch(FormatException)
     goto basla;
 }*/
 
-string kullanıcıAdı;
+/*string kullanıcıAdı;
 string sifre;
 bool girisBasarılı = false;
 
@@ -95,5 +96,10 @@ do
     {
         Console.WriteLine("Hatalı Giriş Tekrar Deneyiniz");
     }
-} while (!girisBasarılı);
+} while (!girisBasarılı);*/
+
+#endregion
+
+string ad = null;
+Console.WriteLine(ad ?? "Boş Değer");
 

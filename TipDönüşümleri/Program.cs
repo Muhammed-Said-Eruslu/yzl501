@@ -214,23 +214,23 @@ else
 // 5 == 5 true
 
 // Eşit Değil
-// 5 != 3 true
+// 5 != 3 false
 // 5 = 5
 
 // Büyüktür
 
 //küçüktür
-// 5 < 3 => false
+// 5 < 3 => flase
 // 3 < 5 => true
 
 
 // Büyük Eşit
-// 6 >= 2 => true
-// 6 >= 6 => true
+// 6 >= 2=> true
+// 6 >= 6 =
 
 // kücük eşit 
 // 6 <= 2 => false
-// 3<= 6 => true
+// 3<=6 => true
 
 // And (ve) Operatörü (&&)
 // tüm koşullar doğru olma durumu (true)
@@ -303,7 +303,7 @@ else
 Console.WriteLine($"Ortalama: {ortalama}, Harf Notu: {not}");
 */
 
-/*Console.WriteLine("Vize Notunu Giriniz :");
+Console.WriteLine("Vize Notunu Giriniz :");
 double vize = double.Parse(Console.ReadLine());
 
 Console.WriteLine("Final Notunu Giriniz : ");
@@ -328,5 +328,4 @@ else if(ortlama >= 70 && ortlama <= 100)
     Console.WriteLine("AA");
 }
 Console.WriteLine(ortlama);
-*/
 #endregion

@@ -5,8 +5,8 @@ Console.WriteLine("Hello, World!");
 // Değişkenler , kendisine atadığımız değerleri daha sonra kullanmak üzere saklayan veri tutucudur
 // değişken tanımlama : DeğişkenTipi DeğişkenAdı = Değer;
 int ilkSayım;// ilk sayım isminde bir değişken tanımladım bu değişken int tipindedir
-ilkSayım = 24;  // ilk sayıma 24 değerini atadım kodda atamalar sağdan sola doğru olur
-int ikinciSayım = 34; // ikinci sayım ısmındekı değişkene 34 değerini atadım ikinci sayım artık 34.Assign
+ilkSayım = 24;
+int ikinciSayım = 34; // ilk sayım ısmındekı değişkene 34 değerini atadım ikinci sayım artık 34.Assign
 // Variable , Data Type , Declatatıon , Assign
 // dedğişken isimlerını camel Case olarak yazıyoruz. Değişken ismi bosluklarla yazılmaz . Bitişik olarak yazılır
 // anlamlı sonradan anlıya bileceğin sekılde atanır
@@ -19,7 +19,7 @@ string ad = "Said\0 " , soyad = "Eruslu\n";
  */
 //string 0_ad; // değişken isimleri rakamla baslayamaz
 // stirng -ad; // değişken isimlerı ozel karakterlerle baslayamaz
-string _ad, ad_2; // alttan tre kullana bılırız // string ad Soyad ; arada bosluk bırakamam 
+string _ad, ad_2; // aşt tre kullana bılırız // string ad Soyad ; arada bosluk bırakamam 
 // Tam sayı Veri Tipleri
 sbyte degiskensByte = 100; // Min:128 - Max: 127
 byte degiskenByte = 45; // Min 0 - Max:255 2^8 // short , ushort, int, uint
@@ -29,9 +29,9 @@ int degiskenİnt = 12344; // min:-2147483648    max: 2147483647
 uint degiskenUint = 324234; // min:0 max:4.2 Milyar 2^32
 long degiskenLong = -12313124; // Min: -9.2 Katrilyon Max:9.2 Katrilyon
 ulong degiskenULong = 4242342; // Min:0 Max:18.4 Katrilyon
-double degiskenDouble = 10.95; // .dan sonra 14 hane desteği verir  8 bayt
-float degiskenFloat = 10.95555555555f; // .dan sonra 7 hane alabılır 4 bayt f kullanmamız gerekir
-decimal degiskenDecimal = 2.43434M; // noktadan sonra 28 hane desteği verir 16 bayt buyuk M kullanırız
+double degiskenBool = 10.95; // .dan sonra 14 hane desteği verir  8 bayt
+float degiskenFloat = 10.95555555555f; // .dan sonra 7 hane alabılır 4 bayt
+decimal degiskenDecimal = 2.43434M; // noktadan sonra 28 hane desteği verir 16 bayt
                            // Metinsel Veri Tipi
                // char => üzerinde tek bir karakter tasıya bılır
 char basHarfim = 'S';
@@ -39,9 +39,9 @@ char basHarfim = 'S';
 string uzunMetin = "Muhammed Said Eruslu";
 string bosMetin = "";
 string ciftTırnaklıMesaj = "Benim Adım:";
-string tersSlashIsareti = "Bilge\\Adam"; // \ kaçıs dizesi
-string ikıSatırlıMetin = "Burası benim birinci satırm \n\t Burası benim ikinci satırım";
-Console.WriteLine(ikıSatırlıMetin);
+string tersSlashIsareti = "Bilge\\Adam";
+string ikSatırlıMetin = "Burası benim birinci satırm \n\t Burası benim ikinci satırım";
+Console.WriteLine(ikSatırlıMetin);
                 // Mantıksal Veri Tipi
 bool bugunTatılMı = false;
 bool bugunGuzelGıdıyorMu = true;
@@ -100,10 +100,10 @@ else
 /*{
    
     Console.Write("Boyunuzu metre cinsinden girin (örn. 1.75): ");
-    double boy = Convert.ToDouble(Console.ReadLine()); // ınput
+    double boy = Convert.ToDouble(Console.ReadLine());
 
     Console.Write("Kilonuzu kilogram cinsinden girin (örn. 70): ");
-    double kilo = Convert.ToDouble(Console.ReadLine()); // neden cevirm yapıyorz ınput değerleri default olarak strıg tutulur
+    double kilo = Convert.ToDouble(Console.ReadLine());
 
     
     double bmi = kilo / (boy * boy);
