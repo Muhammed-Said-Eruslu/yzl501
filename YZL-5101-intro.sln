@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sınav", "sınav\sınav.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-HataYönetimi", "09-HataYönetimi\09-HataYönetimi.csproj", "{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-ForDöngüsü", "10-ForDöngüsü\10-ForDöngüsü.csproj", "{E5832843-7C86-48D5-B589-AC4B64708166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71BD5D8A-9C53-4174-A691-0F14BC5EFA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5832843-7C86-48D5-B589-AC4B64708166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5832843-7C86-48D5-B589-AC4B64708166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5832843-7C86-48D5-B589-AC4B64708166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5832843-7C86-48D5-B589-AC4B64708166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

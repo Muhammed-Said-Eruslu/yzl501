@@ -52,11 +52,12 @@ catch(Exception ex)
 
 #region Örnek3
 
+/*string gelenDeger = null;
 try
 {
     Console.WriteLine("Telefon Numarası: (XXX-XXX-XX-XX)");
-    string gelenDeger = Console.ReadLine();
-    throw new Exception("Doğru Formatta Girmedin"); // bilinçli bir şekilde hata fırlatma
+    gelenDeger = Console.ReadLine();
+    throw new Exception(" Doğru Formatta Girmedin"); // bilinçli bir şekilde hata fırlatma
     Console.WriteLine("Tebrikler!");
 }
 catch (Exception hata)
@@ -64,6 +65,39 @@ catch (Exception hata)
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine($"Error{hata.Message}");
     Console.ForegroundColor = ConsoleColor.White;
+    
+}
+finally // her durumda çalışır hata olsa da olmasa da çalışmasını istediğimiz kodları yazdığımız alan
+{
+    Console.WriteLine("Hata var mı? yok mu? beni ilgilendirmez ben işimi yaparım");
+}*/
+#endregion Örnek4
+
+#region
+
+try
+{
+    Console.WriteLine("Telefon Numarası : ");
+    int telefonNo = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Tebrikler Doğru Telefon Numarası Giridiniz. ");
+}
+catch (FormatException ex)
+{
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine(ex.Message); // format hata tipi string to int hatası 
+    Console.ForegroundColor = ConsoleColor.White;
+}
+catch(OverflowException ex) // veri tipinin boyutunu aşması durumunda hata tipi
+{
+    Console.WriteLine($"Çok uzun sayı girdin{ex.Message}"); 
+}
+catch(DivideByZeroException ex) // bölme hata mesajı
+{
+    Console.WriteLine($"{ex.Message}"); // exceptiıon cok onemli
+}
+catch(Exception ex)
+{
+    Console.WriteLine($"{ex.Message}"); 
 }
 
 #endregion
