@@ -44,13 +44,13 @@ for (int i = 1; i <= 100; i++)
 }
 Console.WriteLine(toplam);*/
 
-for (int i = 1; i <= 10; i++)
+/*for (int i = 1; i <= 10; i++)
 {
     for (int j = 1; j <= 10; j++)
     {
         Console.WriteLine(i * j+ "\t");
     }
-}
+}*/
 #endregion
 
 #region Örnek3
@@ -116,7 +116,13 @@ for (int i = 0; i < 10; i++)
 Console.WriteLine(toplam);*/
 #endregion
 
-#region
-
+#region Matris
+for (int i = 1; i <= 10; i++)
+{
+    for (int j = 1; j <= 10; j++)
+    {
+        Console.WriteLine(i * j + "\t");
+    }
+}
 
 #endregion
