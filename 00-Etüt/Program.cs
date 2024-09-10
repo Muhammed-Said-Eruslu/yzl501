@@ -87,15 +87,3 @@ else
     Console.WriteLine("Geçerli Sayı Giriniz");
 }*/
 
-int gun = 1;
-for (gun = 1; gun <= 7; gun++)
-{
-    Console.WriteLine("Gün Adı Giriniz(1)(2)(3)(4)(5)(6)(7)");
-     gun = int.Parse(Console.ReadLine());
-
-    if(gun == 1 || gun == 2 || gun == 3 || gun == 4 || gun == 5 || gun == 6 || gun == 7 )
-    {
-        string sonuc = (1 > 5) ? "1. sayı 2. sayıdan küçüktür" : "1. sayı 2. sayıdan küçükütür";
-        Console.WriteLine($"Gün: {gun}");
-    }
-}

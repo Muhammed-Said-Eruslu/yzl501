@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-ForDöngüsü", "10-ForD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00-Etüt", "00-Etüt\00-Etüt.csproj", "{12F6207B-A705-4A55-90AF-0C7494933752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileDöngüsü", "WhileDöngüsü\WhileDöngüsü.csproj", "{A68C2570-8A9A-48AE-9CAB-78DFB182E8D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhile", "DoWhile\DoWhile.csproj", "{365FC9F4-DFAB-4179-A30E-1E187B305CC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{12F6207B-A705-4A55-90AF-0C7494933752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12F6207B-A705-4A55-90AF-0C7494933752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12F6207B-A705-4A55-90AF-0C7494933752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68C2570-8A9A-48AE-9CAB-78DFB182E8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68C2570-8A9A-48AE-9CAB-78DFB182E8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68C2570-8A9A-48AE-9CAB-78DFB182E8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68C2570-8A9A-48AE-9CAB-78DFB182E8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365FC9F4-DFAB-4179-A30E-1E187B305CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365FC9F4-DFAB-4179-A30E-1E187B305CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365FC9F4-DFAB-4179-A30E-1E187B305CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365FC9F4-DFAB-4179-A30E-1E187B305CC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
