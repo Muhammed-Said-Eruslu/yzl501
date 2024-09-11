@@ -1,0 +1,9 @@
+27.	Binary olarak girilen sayıyı decimal sayıya çeviren programın algoritma ve akış diyagramını çiziniz
+28.	Verilen yılın artık yıl olup olmadığını bulan programın algoritma ve akış diyagramını çiziniz
+29.	Boyu ile kilosu girilen kişinin şişman mı, zayıf mı yoksa ideal kiloda mı olduğunu gösteren programın algoritma ve akış diyagramını çiziniz.
+30.	Dairenin alanını ve çevresini bulan programın algoritma ve akış diyagramını çiziniz.
+31.	Kenarları A,B,C,D olan bir dörtgenin kare olup olmadığını bulan programın algoritma ve akış diyagramını çiziniz
+32.	Bir uçak 15 dk boyunca düzgün hızlanarak hızı 480 km/s oluyor. Sonra 20 dk sabit hızla gidiyor ve 15 dk boyunca düzgün yavaşlayarak hızı sıfır oluyor. Herhangi bir t anında hızı veren algoritmayı ve akış diyagramını çiziniz
+33.	Girilen dört basamaklı sayılardan ilk iki basamağı ile son iki basamağının toplamının karesi, sayının kendine eşit olan sayılara orijinal sayı denir. Girilen sayının orijinal olup olmadığını bulan programın algoritma ve akış diyagramını çiziniz.
+34.	1 ile 500 arasındaki tam sayılardan tek sayıların toplamı ile çift sayıların toplamının farkı negatif mi, pozitif mi olduğunu bulan programın algoritma ve akış diyagramını çiziniz.
+35.	1 ile 500 arasındaki tam sayılardan tek sayıların toplamı ile çift sayıların toplamının farkı negatif mi, pozitif mi olduğunu bulan programın algoritma ve akış diyagramını çiziniz.(Döngü Kullanarak)
