@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileDöngüsü", "WhileDö
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhile", "DoWhile\DoWhile.csproj", "{365FC9F4-DFAB-4179-A30E-1E187B305CC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-HesapMakinesi2", "13-HesapMakinesi2\13-HesapMakinesi2.csproj", "{5F96B966-68ED-4AB5-A686-517F1311FB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-StringMetodlar", "15-StringMetodlar\15-StringMetodlar.csproj", "{8948A0B3-89B9-42B4-8195-857502FBC7A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{365FC9F4-DFAB-4179-A30E-1E187B305CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{365FC9F4-DFAB-4179-A30E-1E187B305CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{365FC9F4-DFAB-4179-A30E-1E187B305CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F96B966-68ED-4AB5-A686-517F1311FB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F96B966-68ED-4AB5-A686-517F1311FB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F96B966-68ED-4AB5-A686-517F1311FB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F96B966-68ED-4AB5-A686-517F1311FB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8948A0B3-89B9-42B4-8195-857502FBC7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8948A0B3-89B9-42B4-8195-857502FBC7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8948A0B3-89B9-42B4-8195-857502FBC7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8948A0B3-89B9-42B4-8195-857502FBC7A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
