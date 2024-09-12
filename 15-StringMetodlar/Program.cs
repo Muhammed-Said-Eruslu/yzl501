@@ -1,11 +1,28 @@
 ﻿using System.Reflection;
 
-Console.Write("Bir Metin Giriniz");
+Console.WriteLine("Bir Metin Giriniz");
 string metın = Console.ReadLine();
 
 #region Contains
-bool result = metın.Contains("Adam"); // metnin icinde adam bulursak bool bir değer doner
-Console.WriteLine(result);
+metın = "Muhammed Said Eruslu";
 
 
+/*string[] kelimeler = metın.Split(' ');
+
+foreach (string degısken in kelimeler) // nasından sonuna atlamadan kullancaksan bu daha mantıklı
+{
+    Console.WriteLine(degısken);
+}
+
+for (int i = 0; i < kelimeler.Length; i++) // foreach yerine de kullanıla bilir
+{
+    Console.WriteLine(kelimeler[i]);
+}*/
+
+char[] karakterler = metın.ToCharArray();
+
+foreach (char c in metın)
+{
+    Console.WriteLine(c);
+}
 #endregion
