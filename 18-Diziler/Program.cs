@@ -71,3 +71,13 @@ for (int i = 0; i < cıft.Length; i++)
 	}
 }
 #endregion
+
+int[] sayılar = new int[8];
+Random rand = new Random();
+
+for(int i = 0; i < sayılar.Length; i++)
+{
+	sayılar[i] = rand.Next(0,100); // [0,100]
+}
+// Bir struct, class: üyeler vardır. constructor method(Yapıcı Metod)
+// property(Özellik) Method field
