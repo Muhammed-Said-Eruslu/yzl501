@@ -174,7 +174,7 @@ foreach(int pozıtıf in pozitifler)
 // sayıların hiçbirinin aynı olmamasını sağlayan Sayısal Loto 
 //uygulamasını yazın
 
-   Random random = new Random();
+   /*Random random = new Random();
         HashSet<int> sayılar = new HashSet<int>(); // benzersiz sayılar ıcın
 
         
@@ -189,8 +189,16 @@ foreach(int pozıtıf in pozitifler)
         foreach (int sayi in sayılar)
         {
             Console.Write(sayi + " ");
-        }
-    
+        }*/
 
+////Klavyeden girilen bir dizi içerisindeki sayıların
+///ortalamasını bulduktan sonra, bu ortalamanın altında kalan elemanları yeni bir diziye atayın ve ekrana yazdırın.
+
+
+Console.WriteLine("Adet Sayı Girin");
+int sayıAdedi = int.Parse(Console.ReadLine());
+
+int[] sayılar = new int[sayıAdedi];
+int toplam = 0;
 
 #endregion
