@@ -174,31 +174,94 @@ foreach(int pozıtıf in pozitifler)
 // sayıların hiçbirinin aynı olmamasını sağlayan Sayısal Loto 
 //uygulamasını yazın
 
-   /*Random random = new Random();
-        HashSet<int> sayılar = new HashSet<int>(); // benzersiz sayılar ıcın
+/*Random random = new Random();
+     HashSet<int> sayılar = new HashSet<int>(); // benzersiz sayılar ıcın
 
-        
-        while (sayılar.Count < 7)
-        {
-            int sayi = random.Next(1, 50); 
-            sayılar.Add(sayi); 
-        }
 
-        
-        Console.WriteLine("Rastgele üretilen 7  sayı:");
-        foreach (int sayi in sayılar)
-        {
-            Console.Write(sayi + " ");
-        }*/
+     while (sayılar.Count < 7)
+     {
+         int sayi = random.Next(1, 50); 
+         sayılar.Add(sayi); 
+     }
+
+
+     Console.WriteLine("Rastgele üretilen 7  sayı:");
+     foreach (int sayi in sayılar)
+     {
+         Console.Write(sayi + " ");
+     }*/
 
 ////Klavyeden girilen bir dizi içerisindeki sayıların
-///ortalamasını bulduktan sonra, bu ortalamanın altında kalan elemanları yeni bir diziye atayın ve ekrana yazdırın.
 
 
-Console.WriteLine("Adet Sayı Girin");
+/*Console.WriteLine("Adet Sayı Girin");
 int sayıAdedi = int.Parse(Console.ReadLine());
 
 int[] sayılar = new int[sayıAdedi];
 int toplam = 0;
+*/
+
+//Kullanıcı tarafından doldurulan 10 boyutlu bir dizideki en büyük ve en küçük değeri dizi fonksiyonlarını kullanmadan bulun ve ekrana yazdırın
+
+/*int[] sayılar = new int[10];
+int min,max;
+
+Console.WriteLine("10 Adet Sayı Giriniz");
+
+for(int i = 0; i < sayılar.Length; i++)
+{
+    Console.WriteLine(i+1);
+    sayılar[i] = int.Parse(Console.ReadLine());
+}
+min = max = sayılar[0];
+
+for(int i = 0; i < sayılar.Length; i++)
+{
+    if(sayılar[i] < min)
+    {
+        min = sayılar[i];
+    }
+    if(sayılar[i]> max)
+    {
+        max = sayılar[i];
+    }
+}
+Console.WriteLine("En Kücük Değer"+min);
+Console.WriteLine("En Büyük Değer"+max);*/
+
+
+// //Klavyeden girilen bir dizi içerisindeki sayıların ortalamasını bulduktan sonra,
+// bu ortalamanın altında kalan elemanları yeni bir diziye atayın ve ekrana yazdırın.
+
+int[] sayılar = new int[100];
+int min,max;
+int ortalama = 0;
+Console.WriteLine("10 Adet Sayı Giriniz");
+
+for(int i = 0; i < sayılar.Length; i++)
+{
+    Console.WriteLine(i+1);
+    sayılar[i] = int.Parse(Console.ReadLine());
+}
+min = max = sayılar[0];
+
+for(int i = 0; i < sayılar.Length; i++)
+{
+    if(sayılar[i] < min)
+    {
+        min = sayılar[i];
+    }
+    if(sayılar[i]> max)
+    {
+        max = sayılar[i];
+    }
+}
+
+
+
+
+///ortalamasını bulduktan sonra, bu ortalamanın altında kalan elemanları yeni bir diziye atayın ve ekrana yazdırın.
+
+
 
 #endregion
