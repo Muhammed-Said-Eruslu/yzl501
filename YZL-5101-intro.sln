@@ -37,8 +37,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00AlgoritmaOdevSoruları", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Diziler", "18-Diziler\18-Diziler.csproj", "{303A447E-457C-45E1-9E99-B3A8ECA00EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiziLAB", "DiziLAB\DiziLAB.csproj", "{A08AA2E7-59FB-4AB8-82B1-69F8B8E46B58}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,10 +111,6 @@ Global
 		{303A447E-457C-45E1-9E99-B3A8ECA00EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{303A447E-457C-45E1-9E99-B3A8ECA00EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{303A447E-457C-45E1-9E99-B3A8ECA00EBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A08AA2E7-59FB-4AB8-82B1-69F8B8E46B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A08AA2E7-59FB-4AB8-82B1-69F8B8E46B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A08AA2E7-59FB-4AB8-82B1-69F8B8E46B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A08AA2E7-59FB-4AB8-82B1-69F8B8E46B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
