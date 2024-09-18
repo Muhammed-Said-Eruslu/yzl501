@@ -60,9 +60,10 @@ namespace _23_MetotKullanımı // Namespace tanımı
              Console.Read();
              Console.ReadKey();*/
             #endregion
-            EkranaYazıYaz(); // private bir uyeye sadece kendi sinifı ıcınden ulaşabilirim // Metodu Çağırdık
+            //EkranaYazıYaz(); // private bir uyeye sadece kendi sinifı ıcınden ulaşabilirim // Metodu Çağırdık
             //Random random = new Random(); // Random sınıfı statıc değildir.Random sınıfının metodunu çağırmak için random sınıfından nesne üretmek gerekir
-            EkranaİsımYaz("Said",19); // parametreli geri dönüşsüz metot
+            //EkranaİsımYaz("Said",19); // parametreli geri dönüşsüz metot
+            CıftTekSayı(90); // this keyword this.
         }
         #region Metot
         /*
@@ -116,7 +117,26 @@ namespace _23_MetotKullanımı // Namespace tanımı
             Console.ForegroundColor = ConsoleColor.White;
         }
         
+       private static void CıftTekSayı(int sayı1)
+        {
+            int cıfToplam = 0;
+            int tekToplam = 0;
+            for(int i = 0; i <= sayı1; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    cıfToplam += i;
+                }
+                else
+                {
+                    tekToplam += i;
+                }
+                
+            }
+            Console.WriteLine($"Çiftelrin Toplamı {cıfToplam}\nTeklerin Toplamı {tekToplam}");
+        }
 
+       
     }
 }
 
