@@ -21,8 +21,9 @@ namespace MetotÖrnek
             // Bir metot yazın parametere olarak bir cümle ve bir harf alsın Bu cümledeki belirtilen harfin kaç kez geçildiğini döndürsün
 
 
-           int kaç =  Cumle("Saaaaid",'a');
-            Console.WriteLine(kaç);
+           /*int kaç =  Cumle("Saaaaid",'a');
+            Console.WriteLine(kaç);*/
+            // Bir metot yazın parametre olarak bir sayi dizisi alsın Bu dizide ki tek sayıları yeni bir diziye aktarıp döndürsün
 
 
 
@@ -60,6 +61,10 @@ namespace MetotÖrnek
 
         }
 
+        static int[] Tek(int[]sayı)
+        {
+            
+        }
     }
 }
 
